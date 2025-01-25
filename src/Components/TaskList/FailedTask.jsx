@@ -1,6 +1,6 @@
 import React from 'react'
 
-const FailedTask = ({task,key}) => {
+const FailedTask = ({task}) => {
   return (
     <div className='flex-shrink-0 h-full w-[300px] bg-white shadow-lg rounded-xl p-5 flex flex-col justify-between'>
       <div>

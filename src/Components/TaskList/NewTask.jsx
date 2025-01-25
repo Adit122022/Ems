@@ -1,6 +1,6 @@
 import React from 'react'
 
-const NewTask = ({task,key}) => {
+const NewTask = ({task}) => {
   return (
     <div className='flex-shrink-0 h-full w-[300px] bg-green-400 shadow-lg rounded-xl p-5 flex flex-col justify-between'>
     <div className='flex justify-between items-center'>

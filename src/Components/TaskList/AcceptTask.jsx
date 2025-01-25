@@ -1,6 +1,6 @@
 import React from 'react'
 
-const AcceptTask = ({task,key}) => {
+const AcceptTask = ({task}) => {
   return (
    
            <div className='flex-shrink-0 h-full w-[300px] bg-red-400 shadow-lg rounded-xl p-5 flex flex-col justify-between'>
