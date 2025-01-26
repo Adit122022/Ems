@@ -5,7 +5,7 @@ const AcceptTask = ({task}) => {
    
            <div className='flex-shrink-0 h-full w-[300px] bg-red-400 shadow-lg rounded-xl p-5 flex flex-col justify-between'>
 <div className='flex justify-between items-center'>
-    <h3 className='bg-red-600 text-sm px-3 py-1 rounded'>High</h3>
+    <h3 className='bg-red-600 text-sm px-3 py-1 rounded'>{task.category}</h3>
     <h4 className='text-sm'>{task.date}</h4>
 </div>
 <h2 className='mt-5 text-2xl font-semibold'>{task.title}</h2>

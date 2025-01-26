@@ -5,7 +5,7 @@ const FailedTask = ({task}) => {
     <div className='flex-shrink-0 h-full w-[300px] bg-white shadow-lg rounded-xl p-5 flex flex-col justify-between'>
       <div>
         <div className='flex justify-between items-center'>
-          <h3 className='bg-red-600 text-white text-sm px-3 py-1 rounded-full'>High</h3>
+          <h3 className='bg-red-600 text-white text-sm px-3 py-1 rounded-full'>{task.category}</h3>
           <h4 className='text-sm text-gray-500'>{task.date}</h4>
         </div>
         <h2 className='mt-5 text-2xl font-semibold text-gray-800'>{task.title}</h2>
