@@ -1,6 +1,6 @@
 import React from "react";
 
-const Header = () => {
+const Header = ({changeUser}) => {
   return (
     <header className="flex items-center justify-between p-4 bg-gray-900 rounded-lg shadow-md">
       <div>
@@ -13,8 +13,8 @@ const Header = () => {
       </div>
       <button
         onClick={() => {
-          localStorage.clear();
-          window.location.reload();
+          localStorage.setItem('loggedInUser','')
+          changeUser('')
         }}
         className="bg-red-600 hover:bg-red-700 text-white text-base md:text-lg font-medium px-4 md:px-6 py-2 rounded-lg transition duration-200"
       >

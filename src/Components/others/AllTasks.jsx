@@ -3,7 +3,7 @@ import { AuthContext } from '../../Context/AuthProvider';
 
 const AllTasks = () => {
   const authdata = useContext(AuthContext);
-  console.log(authdata.employees);
+  // console.log(authdata.employees);
 
   return (
     <div className="bg-gray-900 p-6 mt-8 rounded-lg h-[60vh] overflow-hidden shadow-lg">
