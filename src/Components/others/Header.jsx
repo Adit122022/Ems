@@ -8,7 +8,7 @@ const Header = ({changeUser}) => {
           Welcome Back,
         </h1>
         <span className="text-2xl md:text-3xl font-semibold text-emerald-400">
-          Username 👋
+          {changeUser} 👋
         </span>
       </div>
       <button
