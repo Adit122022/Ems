@@ -113,4 +113,4 @@ This project is **MIT Licensed**. Feel free to use and modify it as needed.
 
 ---
 🔗 **GitHub Repository**: [Ems](https://github.com/Adit122022/Ems)
-🔗 **Live  Preview**: [Ems]((https://employeemanagementsytm.netlify.app/))
+🔗 **Live  Preview**: [Ems](https://employeemanagementsytm.netlify.app/)
